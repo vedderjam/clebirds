@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec467585368bbf4faf741c4ce8da0e5, type: 3}
+  m_Name: EasyLevel
+  m_EditorClassIdentifier: 
+  level: 0
+  coinsMultiplier: 0
+  scrollSpeed: -2
+  foreGroundScrollSpeed: -2.5
+  backGroundScrollSpeed: -0.5
+  spawnRate: 3
+  columnMin: -2
+  columnMax: 1.25
+  bottomColumnOffset: -12.5
+  minOffset: -2
+  maxOffset: 2
+  bushOffset: 4

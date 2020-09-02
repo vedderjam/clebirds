@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: 54c734c64a9f33b44b25c26d9e273d7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3515566825766503587
+    second: HirundoGold_0
+  - first:
+      213: -6757344484804163700
+    second: HirundoGold_1
+  - first:
+      213: -4684685581932333946
+    second: HirundoGold_2
+  - first:
+      213: 8514157907013087982
+    second: HirundoGold_3
+  - first:
+      213: -318089965143292479
+    second: HirundoGold_4
+  - first:
+      213: -8705262740922651963
+    second: HirundoGold_5
+  - first:
+      213: 4334633415420469030
+    second: HirundoGold_6
+  - first:
+      213: -2225081130865721935
+    second: HirundoGold_7
+  - first:
+      213: -8124763856362474635
+    second: HirundoGold_8
+  - first:
+      213: 6745609268814706678
+    second: HirundoGold_9
+  - first:
+      213: -1788332650961824605
+    second: HirundoGold_10
+  - first:
+      213: 1087194673842697667
+    second: HirundoGold_11
+  - first:
+      213: 6481733143296203587
+    second: HirundoGold_12
+  - first:
+      213: 6989778538087856368
+    second: HirundoGold_13
+  - first:
+      213: 5986532600787127113
+    second: HirundoGold_14
+  - first:
+      213: 5337754377401194954
+    second: Hirundo_Aurica_0
+  - first:
+      213: -2541127290390914320
+    second: Hirundo_Aurica_1
+  - first:
+      213: -4557698595593200248
+    second: Hirundo_Aurica_2
+  - first:
+      213: 3436347384042396427
+    second: Hirundo_Aurica_3
+  - first:
+      213: -4813790881165365725
+    second: Hirundo_Aurica_4
+  - first:
+      213: -2250373191538821790
+    second: Hirundo_Aurica_5
+  - first:
+      213: 5686174082934229736
+    second: Hirundo_Aurica_6
+  - first:
+      213: -491929227845277694
+    second: Hirundo_Aurica_7
+  - first:
+      213: 26801888271746495
+    second: Hirundo_Aurica_8
+  - first:
+      213: 1974169170442871425
+    second: Hirundo_Aurica_9
+  - first:
+      213: -1332755630718252138
+    second: Hirundo_Aurica_10
+  - first:
+      213: 6419274856640785001
+    second: Hirundo_Aurica_11
+  - first:
+      213: 3196001618519607390
+    second: Hirundo_Aurica_12
+  - first:
+      213: -3465861130990199684
+    second: Hirundo_Aurica_13
+  - first:
+      213: 8333372501978527110
+    second: Hirundo_Aurica_14
+  - first:
+      213: 1305059262533620601
+    second: Hirundo_Aurica_Sphere_0
+  - first:
+      213: 754020595520742876
+    second: Hirundo_Aurica_Sphere_1
+  - first:
+      213: 3794027962181660107
+    second: Hirundo_Aurica_Sphere_2
+  - first:
+      213: 4126807211950704959
+    second: Hirundo_Aurica_Sphere_3
+  - first:
+      213: -4318161361602659433
+    second: Hirundo_Aurica_Sphere_4
+  - first:
+      213: 5817859791991232456
+    second: Hirundo_Aurica_Sphere_5
+  - first:
+      213: -568700522729605118
+    second: Hirundo_Aurica_Sphere_6
+  - first:
+      213: 584934761363573761
+    second: Hirundo_Aurica_Sphere_7
+  - first:
+      213: 2001918152178416543
+    second: Hirundo_Aurica_Sphere_8
+  - first:
+      213: 3781837945374674953
+    second: Hirundo_Aurica_Sphere_9
+  - first:
+      213: -1935202295421843065
+    second: Hirundo_Aurica_Sphere_10
+  - first:
+      213: 7672714744201608473
+    second: Hirundo_Aurica_Sphere_11
+  - first:
+      213: -3592163412387833751
+    second: Hirundo_Aurica_Sphere_12
+  - first:
+      213: -2878803914700255653
+    second: Hirundo_Aurica_Sphere_13
+  - first:
+      213: -2809217562984200143
+    second: Hirundo_Aurica_Sphere_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973562a1c708c1210800000000000000
+      internalID: 1305059262533620601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5a7559cb1d67a00800000000000000
+      internalID: 754020595520742876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdacb9745817a430800000000000000
+      internalID: 3794027962181660107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3987d46b4d554930800000000000000
+      internalID: 4126807211950704959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b3bd6ce1fc214c0800000000000000
+      internalID: -4318161361602659433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c75aae08a03db050800000000000000
+      internalID: 5817859791991232456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2087f1f33e19b18f0800000000000000
+      internalID: -568700522729605118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8adbf01b1e1800800000000000000
+      internalID: 584934761363573761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b300ae3fd38cb10800000000000000
+      internalID: 2001918152178416543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90096240399cb7430800000000000000
+      internalID: 3781837945374674953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7894cd4f3c7c425e0800000000000000
+      internalID: -1935202295421843065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91df9077865fa7a60800000000000000
+      internalID: 7672714744201608473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968d7759862162ec0800000000000000
+      internalID: -3592163412387833751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e8946971f6c08d0800000000000000
+      internalID: -2878803914700255653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirundo_Aurica_Sphere_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138c985a287a309d0800000000000000
+      internalID: -2809217562984200143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hirundo_Tahitica
+  m_Controller: {fileID: 9100000, guid: 7f84d1a876f95434dacf1ad77f14026d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a2476b95c48b2c94c810ca1337865039, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 25a2f8f33ea86a9438f4b98255d8e994, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d03b49cb9fdec644daf6331abe8e0ba1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7bde3935cb1fe1449b2a94bffb83fcb4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5996317144139e045918f7c7783beefb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 085fd6fe23ab0ec49a74500b5df0f6f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 56f14a34c3cc8dc49af9ccfccf098fea, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 32d6d45e112e9204c9cbf3ddbf9f8e56, type: 2}

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5cabd1670bf7da458b87426cc6234e9, type: 3}
+  m_Name: BirdHouse
+  m_EditorClassIdentifier: 
+  birdInfos:
+  - name: "GOLONDRINA COM\xDAN"
+    sprite: {fileID: 21300000, guid: e85ee415cbdc69346bffdb79042aa198, type: 3}
+    prize: 0
+    purchased: 1
+    prefab: {fileID: 8501833117856623768, guid: ed29cba782eb46d45944fa9edd1579bf,
+      type: 3}
+    aggregatedScore: 1573
+    infoPills:
+    - "La golondrina com\xFAn o andorina es una especie de ave paseriforme de la
+      familia Hirundinidae de h\xE1bitos migratorios."
+    - "Nombre cient\xEDfico: Hirundo rustica\nFamilia: Hirundinidae\nLongitud: 15
+      \u2013 20 cm\nMasa Corporal: 18 g"
+    - "Su h\xE1bitat preferido  es campo abierto  con vegetaci\xF3n baja, como pasturas,
+      prados  y terrenos agr\xEDcolas, preferentemente  con agua en las cercan\xEDas."
+    - "Se alimenta t\xEDpicamente a siete u ocho metros por encima de aguas poco
+      profundas o del suelo,\u200B a menudo siguiendo animales, humanos o maquinaria
+      agr\xEDcola para atrapar los insectos ahuyentados, pero ocasionalmente captura
+      sus presas de la superficie del agua, paredes o plantas."
+    - "Se reproducen generalmente entre mayo y agosto, pero esto var\xEDa mucho seg\xFAn
+      el lugar. Pueden reproducirse ya en la primera temporada reproductiva posterior
+      a su nacimiento. Generalmente, las golondrinas j\xF3venes no depositan tantos
+      huevos como las adultas."
+    - "Anida t\xEDpicamente en el interior de edificaciones accesibles como graneros
+      y establos y debajo de puentes y embarcaderos. Antes de que hubiera abundancia
+      de estructuras construidas por el ser humano, las golondrinas comunes anidaban
+      sobre acantilados o en cuevas, pero esto es raro en la actualidad."
+    scoreNeededToShowInfoPill: 64000000c80000005e010000f40100008a02000020030000
+  - name: "GOLONDRINA DEL PAC\xCDFICO"
+    sprite: {fileID: 21300000, guid: d997907ea4626874da129e57eb63d9d7, type: 3}
+    prize: 1000
+    purchased: 1
+    prefab: {fileID: 8501833117856623768, guid: 31b88ece291dafb4b9dce5942cb4544f,
+      type: 3}
+    aggregatedScore: 754
+    infoPills:
+    - "La golondrina del Pac\xEDfico (Hirundo tahitica)\u200B es una especie de ave
+      paseriforme \rde la familia Hirundinidae propia del sudeste asi\xE1tico y las
+      islas del Pac\xEDfico."
+    - "Est\xE1 asociada con las costas, pero se expande tambi\xE9n hacia zonas boscosas."
+    - "Es una golondrina peque\xF1a, con solo 13 cm de longitud. "
+    - "Se diferencia de Hirundo rustica y la cercanamente relacionada \r\nHirundo
+      neoxena por su cola m\xE1s corta y menos bifurcada."
+    - "La golondrina del Pac\xEDfico construye un nido con forma de recipiente con
+      pelotitas de barro recolectadas en su pico bajo los salientes de los acantilados
+      y en estructuras hechas por el hombre como edificios, puentes o t\xFAneles.
+      El nido est\xE1 cubierto con material m\xE1s suave y suelen poner dos o tres
+      huevos. "
+    - "Su comportamiento es similar al de otros insect\xEDvoros a\xE9roeos, como
+      otras golondrinas y vencejos. Es una voladora r\xE1pida y se alimenta de insectos,
+      especialmente moscas, que caza en pleno vuelo."
+    scoreNeededToShowInfoPill: 64000000c80000005e010000f40100008a02000020030000
+  - name: "GORRI\xD3N"
+    sprite: {fileID: 21300000, guid: 3479d63c1c67152479ff34eeb1df0dcd, type: 3}
+    prize: 1500
+    purchased: 0
+    prefab: {fileID: 4578296715989164003, guid: 5946c36637dd53d4ead2519a87533b9f,
+      type: 3}
+    aggregatedScore: 34
+    infoPills:
+    - "El gorri\xF3n com\xFAn (Passer domesticus), tambi\xE9n llamado pardal, es
+      una especie de ave paseriforme de la familia Passeridae. Est\xE1 adaptado al
+      h\xE1bitat urbano hasta el punto de ser el p\xE1jaro m\xE1s frecuente y conocido
+      en esas \xE1reas, aunque en t\xE9rminos absolutos el pinz\xF3n es m\xE1s abundante.
+      Puede llegar a vivir trece a\xF1os en cautiverio, aunque generalmente no llega
+      a los siete a\xF1os en libertad."
+    - "Pesa alrededor de 30 g y mide de 14 a 16 cm de longitud total (el macho suele
+      ser algo m\xE1s grande que la hembra). Es de conformaci\xF3n robusta y tiene
+      las patas cortas. Su pico es grueso, fuerte y c\xF3nico, de tipo gran\xEDvoro."
+    - "Es un p\xE1jaro inteligente, vivaracho y curioso. Es sedentario y gregario.
+      Siempre se encuentran en lugares habitados, como calles, parques o jardines,
+      as\xED como huertas y granjas. Es muy confiado ante la presencia humana y en
+      ciudades grandes llega a tolerar distancias muy cercanas."
+    - "Se alimentan en el suelo, donde caminan dando brincos y pueden hacerlo con
+      sorprendente rapidez. Es com\xFAn verlos hostigarse entre ellos o a otras aves
+      para arrebatarles la comida."
+    - "Su alimentaci\xF3n b\xE1sica consiste en semillas, tanto silvestres como cultivadas,
+      aunque por su car\xE1cter de comensal aprovecha los desperdicios producidos
+      por el ser humano, y en algunas zonas se alimenta casi exclusivamente de ellos.
+      En zonas rurales acostumbra a robar el pienso de los animales de granja, por
+      lo que no es muy apreciado."
+    - "Los gorriones forman parejas mon\xF3gamas en cada estaci\xF3n de reproducci\xF3n.
+      La temporada de cr\xEDa es larga. El macho persigue a la hembra, que responde
+      con el casta\xF1eteo t\xEDpico de enfado y evita al macho; progresivamente
+      va tolerando su presencia hasta que permite que la fecunde. Construyen los
+      nidos en primavera, con hojas secas, plumas y restos de papel. Anidan en grietas
+      de edificios, debajo de tejas o en troncos de con\xEDferas."
+    scoreNeededToShowInfoPill: 64000000c80000005e010000f40100008a02000020030000
