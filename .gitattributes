@@ -51,3 +51,4 @@
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
+*.aar filter=lfs diff=lfs merge=lfs -text
