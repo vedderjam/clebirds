@@ -67,14 +67,14 @@ public class Tree : MonoBehaviour
                 sprites[i].sortingLayerName = visibleLayer;
                 var collider = sprites[i].gameObject.GetComponent<PolygonCollider2D>();
                 if(collider != null)
-                    collider.isTrigger = false;
+                    collider.enabled = false;
             }
             else
             {
                 sprites[i].sortingLayerName = nonVisibleLayer;
                 var collider = sprites[i].gameObject.GetComponent<PolygonCollider2D>();
                 if(collider != null)
-                    collider.isTrigger = true;
+                    collider.enabled = true;
             }
         }
     }
