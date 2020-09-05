@@ -43,7 +43,7 @@ public class UserData : ScriptableObject
         }
     }
 
-    private int _coins;
+    [SerializeField]private int _coins;
     public int Coins
     {
         get{ return _coins; }
