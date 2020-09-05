@@ -199,8 +199,8 @@ public class UIManager : Singleton<UIManager>
     private void HideBirdPrize(int index)
     {
         var children = birdsButtons[index].GetComponentsInChildren<RectTransform>(true);
-        children[2].gameObject.SetActive(false); // Prize text
-        children[3].gameObject.SetActive(false); // Coin Image
+        children[3].gameObject.SetActive(false); // Prize text
+        children[4].gameObject.SetActive(false); // Coin Image
     }
             
     private void ShowMoneySpentEffect(int birdIndex)
