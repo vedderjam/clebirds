@@ -19,6 +19,7 @@ public class EventBroker
     public static event Action SocialSignedIn;
     public static event Action SocialSignedOut;
     public static event Action<int, string> PostScore;
+    public static event Action CloudSaveLoaded;
 
     public static void CallGameOver()
     {
@@ -98,5 +99,10 @@ public class EventBroker
     public static void CallPostScore(int score, string leaderboardID)
     {
         PostScore?.Invoke(score, leaderboardID);
+    }
+
+    public static void CallCloudSaveLoaded()
+    {
+        CloudSaveLoaded?.Invoke();
     }
 }

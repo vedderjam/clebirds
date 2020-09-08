@@ -18,6 +18,7 @@ public class UIManager : Singleton<UIManager>
     public GameObject pauseButton;
     public GameObject newRecord;
     public GameObject playGamesButtonsParent;
+    public GameObject savedGamesButton;
 
     [Header("Birds selection")]
     public BirdHouse birdHouse;
@@ -72,6 +73,7 @@ public class UIManager : Singleton<UIManager>
         EventBroker.NewInfoPills += EventBroker_NewInfoPills;
         EventBroker.SocialSignedIn += EventBroker_SocialSignedIn;
         EventBroker.SocialSignedOut += EventBroker_SocialSignedOut;
+        EventBroker.CloudSaveLoaded += EventBroker_CloudSaveLoaded;
     }
 
     private void Start()
@@ -81,13 +83,14 @@ public class UIManager : Singleton<UIManager>
 
         #if DEVELOPMENT_BUILD || UNITY_EDITOR
             pauseButton.SetActive(true);
+            savedGamesButton.SetActive(true);
         #endif
     }
 
     private void SetUITexts()
     {
         scoreText.text = $"{GameControl.Score}";
-        hiScoreText.text = $"RÉCORD: {GameControl.Record}";
+        UpdateHighScore();
         coinsText.text = GameControl.Coins.ToString();
         selectionScreenCoinsText.text = GameControl.Coins.ToString();
     }
@@ -147,6 +150,7 @@ public class UIManager : Singleton<UIManager>
         EventBroker.NewInfoPills -= EventBroker_NewInfoPills;
         EventBroker.SocialSignedIn -= EventBroker_SocialSignedIn;
         EventBroker.SocialSignedOut -= EventBroker_SocialSignedOut;
+        EventBroker.CloudSaveLoaded -= EventBroker_CloudSaveLoaded;
     }
 
     private void GameOver()
@@ -168,7 +172,7 @@ public class UIManager : Singleton<UIManager>
         birdsSelectionButton.SetActive(true);
         creditsButton.SetActive(true);
         newInfoPillsText.gameObject.SetActive(false);
-        playGamesButtonsParent.SetActive(true); //TODO: Reactivar cuando se habilite Games Service
+        playGamesButtonsParent.SetActive(true);
     }
 
     private void BirdScored()
@@ -248,6 +252,13 @@ public class UIManager : Singleton<UIManager>
         playGamesSignOutButton.gameObject.SetActive(true);
         playGamesSignInButton.gameObject.SetActive(false);
         playGamesLeaderboards.gameObject.SetActive(true);
+    }
+    
+    private void EventBroker_CloudSaveLoaded()
+    {
+        Debug.Log("Set UI Texts");
+        if(GameControl.Instance.gameState != GameState.Playing)
+            SetUITexts();
     }
 
     private void UpdateSelectedBirdInfo()

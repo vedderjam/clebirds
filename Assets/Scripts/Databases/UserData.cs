@@ -57,6 +57,19 @@ public class UserData : ScriptableObject
     }
 
     public int CurrentBirdIndex{get; set;}
+
+    private int _firstTimeOnDevice;
+    public int FirstTimeOnDevice
+    {
+        get {return _firstTimeOnDevice; }
+        set
+        {
+            if(value > 1)
+                _firstTimeOnDevice = 1;
+            else
+                _firstTimeOnDevice = 0;
+        }
+    }
     #endregion
 
     #region Methods
@@ -133,6 +146,9 @@ public class UserData : ScriptableObject
         PlayerPrefs.SetInt(nameof(HardRecord), HardRecord);
         PlayerPrefs.SetInt(nameof(Coins), Coins);
         PlayerPrefs.SetInt(nameof(CurrentBirdIndex), CurrentBirdIndex);
+
+        PlayerPrefs.SetInt(nameof(FirstTimeOnDevice), 0);
+
         PlayerPrefs.Save();
     }
     
@@ -162,6 +178,8 @@ public class UserData : ScriptableObject
         else Coins = 0;
 
         CurrentBirdIndex = PlayerPrefs.GetInt(nameof(CurrentBirdIndex), 0);
+
+        FirstTimeOnDevice = PlayerPrefs.GetInt(nameof(FirstTimeOnDevice), 1);
     }
 
     #endregion

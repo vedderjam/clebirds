@@ -70,6 +70,8 @@ public class GameControl : Singleton<GameControl>
     private int minReward = 10;
     private int maxReward = 100;
 
+    public static string saveFilename = "clebirds_savefile";
+
     #endregion
 
     #region Unity Callbacks
@@ -83,21 +85,15 @@ public class GameControl : Singleton<GameControl>
         EventBroker.GamePaused += PauseGame;
         EventBroker.GameResumed += ResumeGame;
         EventBroker.EarnedRewardedAd += EventBroker_EarnedRewardedAd;
+        EventBroker.SocialSignedIn += EventBroker_SocialSignedIn;
+        EventBroker.CloudSaveLoaded += EventBroker_CloudSaveLoaded;
     }
 
     private void Start()
     {
         birds = new GameObject[birdHouse.birdInfos.Capacity];
         Load();
-        currentDifficultyLevel = userData.GetDifficultyLevel();
-        CurrentBirdIndex = GetCurrentBirdIndex();
-        SelectBird(CurrentBirdIndex, false);
-        EventBroker.CallChangeDifficultyLevel();
-        Score = 0;
-        Record = userData.GetCurrentLevelRecord();
-        Coins = userData.Coins;
         gameState = GameState.Idle;
-        UpdateHighScore();
     }
 
     private void OnDestroy()
@@ -107,6 +103,8 @@ public class GameControl : Singleton<GameControl>
         EventBroker.GamePaused -= PauseGame;
         EventBroker.GameResumed -= ResumeGame;
         EventBroker.EarnedRewardedAd -= EventBroker_EarnedRewardedAd;
+        EventBroker.SocialSignedIn -= EventBroker_SocialSignedIn;
+        EventBroker.CloudSaveLoaded -= EventBroker_CloudSaveLoaded;
     }
 
     #endregion
@@ -114,6 +112,24 @@ public class GameControl : Singleton<GameControl>
     #region Methods
     private void Load()
     {
+        if (Social.localUser.authenticated)
+            GPGSController.Instance.OpenSavedGameForReading(saveFilename);
+        else
+            LocalLoad();
+                
+        currentDifficultyLevel = userData.GetDifficultyLevel();
+        CurrentBirdIndex = GetCurrentBirdIndex();
+        SelectBird(CurrentBirdIndex, false);
+        Score = 0;
+        Record = userData.GetCurrentLevelRecord();
+        Coins = userData.Coins;
+        UpdateHighScore();
+        EventBroker.CallChangeDifficultyLevel();
+    }
+
+    private void LocalLoad()
+    {
+        Debug.Log("Local load");
         userData.Load();
         birdHouse.Load();
     }
@@ -152,8 +168,7 @@ public class GameControl : Singleton<GameControl>
         ResetScore();
         gameState = GameState.GameOver;
         audioSource.PlayOneShot(gameOverClip);
-        userData.Save();
-        birdHouse.Save();
+        Save();
     }
 
     private void PostLeaderboard()
@@ -205,6 +220,20 @@ public class GameControl : Singleton<GameControl>
         birdHouse.birdInfos[userData.CurrentBirdIndex].aggregatedScore += Score;
     }
 
+    private void Save()
+    {
+        if(Social.localUser.authenticated)
+            GPGSController.Instance.OpenSavedGameForWriting(saveFilename);
+            
+        LocalSave();
+    }
+
+    private void LocalSave()
+    {
+        userData.Save();
+        birdHouse.Save();
+    }
+
     private void PauseGame()
     {
         print("GameControl PauseGame");
@@ -222,6 +251,26 @@ public class GameControl : Singleton<GameControl>
         Reward += MoreReward;
         userData.AddCoins(MoreReward);
         Coins = userData.Coins;
+    }
+    
+    private void EventBroker_SocialSignedIn()
+    {
+        Load();
+    }
+    
+    private void EventBroker_CloudSaveLoaded()
+    {        
+        CheckNewInfoPillsToShow(Score);
+        UpdateBirdAggregatedScore();
+        CurrentBirdIndex = GetCurrentBirdIndex();
+        SelectBird(CurrentBirdIndex, false);
+        if(gameState != GameState.Playing)
+        {
+            currentDifficultyLevel = userData.GetDifficultyLevel();
+            EventBroker.CallChangeDifficultyLevel();
+        }
+        UpdateHighScore();
+        UpdateRewardAndCoinsAfterLosing();
     }
 
     private void UpdateHighScore()
