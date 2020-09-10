@@ -16,4 +16,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7cb4ec1d86452314da82f9fad9bc5ec5, type: 2}
   - {fileID: 11400000, guid: 5358b19652b268e4ea57cfb39b43012a, type: 2}
   - {fileID: 11400000, guid: e8436b2e0999e5b4ebaa83128be632bd, type: 2}
-  difficultyLevel: {fileID: 11400000, guid: 5358b19652b268e4ea57cfb39b43012a, type: 2}
+  _coins: 0

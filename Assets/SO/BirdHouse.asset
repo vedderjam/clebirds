@@ -19,7 +19,7 @@ MonoBehaviour:
     purchased: 1
     prefab: {fileID: 8501833117856623768, guid: ed29cba782eb46d45944fa9edd1579bf,
       type: 3}
-    aggregatedScore: 1573
+    aggregatedScore: 0
     infoPills:
     - "La golondrina com\xFAn o andorina es una especie de ave paseriforme de la
       familia Hirundinidae de h\xE1bitos migratorios."
@@ -46,7 +46,7 @@ MonoBehaviour:
     purchased: 1
     prefab: {fileID: 8501833117856623768, guid: 31b88ece291dafb4b9dce5942cb4544f,
       type: 3}
-    aggregatedScore: 754
+    aggregatedScore: 0
     infoPills:
     - "La golondrina del Pac\xEDfico (Hirundo tahitica)\u200B es una especie de ave
       paseriforme \rde la familia Hirundinidae propia del sudeste asi\xE1tico y las
@@ -70,7 +70,7 @@ MonoBehaviour:
     purchased: 0
     prefab: {fileID: 4578296715989164003, guid: 5946c36637dd53d4ead2519a87533b9f,
       type: 3}
-    aggregatedScore: 34
+    aggregatedScore: 0
     infoPills:
     - "El gorri\xF3n com\xFAn (Passer domesticus), tambi\xE9n llamado pardal, es
       una especie de ave paseriforme de la familia Passeridae. Est\xE1 adaptado al

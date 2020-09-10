@@ -59,3 +59,12 @@ sysinfo.txt
 crashlytics-build.properties
 
 Assets/Scripts/Ads/
+Assets/Scripts/Ads.meta
+Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll.meta
+Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll.meta
+Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll.meta
+Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll.meta
+Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset
+Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset.meta
+Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml
+Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml.meta
